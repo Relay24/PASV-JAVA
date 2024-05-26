@@ -6,8 +6,8 @@ package lesson2.homework;
 public class Task4 {
     public static void main(String[] args) {
         int number = 1234;
-        System.out.println(number);
-        System.out.println(revers(number));
+        System.out.println("Original number: " + number);
+        System.out.println("Revers: " + revers(number));
     }
 
     private static int revers(int number) {

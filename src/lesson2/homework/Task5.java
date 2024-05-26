@@ -11,12 +11,12 @@ public class Task5 {
         int numberThree = (number % 1000 - number % 100) / 100;
         int numberFour = number / 1000;
 
-        System.out.println(chekEquel(numberOne, numberTwo, numberThree, numberFour));
+        System.out.println("Number: " + number + " " + checkEqual(numberOne, numberTwo, numberThree, numberFour));
     }
 
-    private static String chekEquel(int numberOne, int numberTwo, int numberThree, int numberFour) {
+    private static String checkEqual(int numberOne, int numberTwo, int numberThree, int numberFour) {
         return (numberOne == numberTwo) | (numberOne == numberThree)
                 | (numberOne == numberFour) | (numberTwo == numberThree)
-                | (numberTwo == numberFour) | (numberThree == numberFour) ? "Equel" : "Not Equel";
+                | (numberTwo == numberFour) | (numberThree == numberFour) ? "Contained Equal" : "Not Contained Equal";
     }
 }

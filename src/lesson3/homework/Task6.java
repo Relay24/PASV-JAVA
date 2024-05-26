@@ -20,11 +20,11 @@ public class Task6 {
     }
 
     private static String numberSeven(int number) {
-        return number % 10 == 7 ? "Семерка" : "Не семерка";
+        return number % 10 == 7 ? "Last number is 7" : "Last number is not 7";
     }
 
     private static String getCountNumber(int number) {
-        return number > 99 && number < 1000 ? "Трехзначное" : "Не трехзначное";
+        return number > 99 && number < 1000 ? "Three digit number" : "Not three digit number";
     }
 }
 

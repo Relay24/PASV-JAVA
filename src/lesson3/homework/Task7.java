@@ -19,7 +19,7 @@ public class Task7 {
     }
 
     private static String getResultCaver(int radiusR, int sideA, int sideB) {
-        return radiusR >= Math.sqrt((double) (sideA * sideA + sideB * sideB) / 2) ? "Впишется" : "Не впишится";
+        return radiusR >= Math.sqrt((double) (sideA * sideA + sideB * sideB) / 2) ? "Covered" : "Not covered";
     }
 
 }
