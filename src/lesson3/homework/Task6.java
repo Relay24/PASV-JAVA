@@ -16,7 +16,7 @@ public class Task6 {
     }
 
     private static String numberEvenOdd(int number) {
-        return number % 2 == 0 ? "Четный" : "Не четный";
+        return number % 2 == 0 ? "Even number" : "Odd number";
     }
 
     private static String numberSeven(int number) {
