@@ -9,8 +9,8 @@ public class Task10 {
         System.out.println("Factorial: " + getFactorial(startNumber, endNumber));
     }
 
-    private static double getFactorial(int startNumber, int endNumber) {
-        double factorial = 1;
+    private static long getFactorial(int startNumber, int endNumber) {
+        long factorial = 1;
         while (startNumber <= endNumber) {
             factorial *= startNumber;
             startNumber++;

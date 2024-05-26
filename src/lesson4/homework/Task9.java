@@ -9,8 +9,8 @@ public class Task9 {
         System.out.println("Factorial: " + getFactorial());
     }
 
-    private static double getFactorial() {
-        double factorial = 1;
+    private static long getFactorial() {
+        long factorial = 1;
         int x = (int) (Math.random() * 20);
         while (x != 0) {
             factorial *= x;
