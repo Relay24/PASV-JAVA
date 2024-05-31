@@ -2,7 +2,6 @@ package lesson5.homework;
 
 /*Создать последовательность случайных чисел, найти и вывести наибольшее из них*/
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class Task13 {

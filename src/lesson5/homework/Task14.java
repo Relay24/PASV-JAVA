@@ -3,7 +3,6 @@ package lesson5.homework;
 /*Создать массив оценок произвольной длины, вывести максимальную и
 минимальную оценку, её (их) номера.*/
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class Task14 {
