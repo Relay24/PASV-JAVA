@@ -46,7 +46,7 @@ public class Task14 {
 
     private static int[] getRandomArray() {
         Random random = new Random();
-        int lengthArray = random.nextInt(MAX_LENGTH_ARRAY - MIN_LENGTH_ARRAY) + MIN_LENGTH_ARRAY;
+        int lengthArray = Math.abs(random.nextInt(MAX_LENGTH_ARRAY - MIN_LENGTH_ARRAY) + MIN_LENGTH_ARRAY);
         int[] randomArray = new int[lengthArray];
         for (int i = 0; i < randomArray.length; i++) {
             randomArray[i] = random.nextInt(MAX_GRADE) + MIN_GRADE;
