@@ -45,7 +45,7 @@ public class Task16 {
 
     private static int getIndexOfMin(int[] randomArray) {
         int min = randomArray[0];
-        int index = randomArray[0];
+        int index = 0;
         for (int i = 0; i < randomArray.length; i++) {
             if (randomArray[i] < min) {
                 min = randomArray[i];
@@ -57,7 +57,7 @@ public class Task16 {
 
     private static int getIndexOfMax(int[] randomArray) {
         int max = randomArray[0];
-        int index = randomArray[0];
+        int index = 0;
         for (int i = 0; i < randomArray.length; i++) {
             if (randomArray[i] > max) {
                 max = randomArray[i];
