@@ -5,6 +5,9 @@ package lesson3.homework;
     Это число – количесво денег в рублях. Вывести это число,добавив к
     нему слово «рублей» в правильном падеже.*/
 
+    /*
+    @Pavlo FIXME: Решение не верно для чисел 11-14
+    */
 import java.util.Random;
 
 public class Task8 {

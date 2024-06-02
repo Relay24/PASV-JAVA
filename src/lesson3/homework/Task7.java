@@ -3,6 +3,9 @@ package lesson3.homework;
 /*  Имеется прямоугольное отверстие размерами a и b,определить,можно ли его
     полностью закрыть круглой картонкой радиусом r.*/
 
+    /*
+    @Pavlo FIXME: Решение верно
+    */
 import java.util.Scanner;
 
 public class Task7 {

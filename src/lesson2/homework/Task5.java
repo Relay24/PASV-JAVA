@@ -3,6 +3,9 @@ package lesson2.homework;
 /*  Дано любое натуральное 4-х значное число. Верно ли, что все цифры числа
     различны?*/
 
+    /*
+    @Pavlo FIXME: Решение верно. Можно также использовать краткое или.
+    */
 public class Task5 {
     public static void main(String[] args) {
         int number = 1234;
