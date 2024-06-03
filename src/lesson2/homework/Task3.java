@@ -7,6 +7,9 @@ package lesson2.homework;
     D) недель + дней + часов + минут + секунд.
     по аналогии с примером выше.*/
 
+    /*
+    @Pavlo FIXME: Решение выполнено отлично
+    */
 public class Task3 {
 
     private static final int totalSec = 4500;

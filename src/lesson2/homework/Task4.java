@@ -3,6 +3,9 @@ package lesson2.homework;
 /*  Определить число, полученное выписыванием в обратном порядке цифр
     любого 4-х значного натурального числа n.*/
 
+    /*
+    @Pavlo FIXME: Решение верно
+    */
 public class Task4 {
     public static void main(String[] args) {
         int number = 1234;
