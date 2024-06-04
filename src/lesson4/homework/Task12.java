@@ -8,12 +8,16 @@ import java.util.Scanner;
     @Pavlo FIXME: Решение верно
             Факультативно: Важно закрывать Scanner после его использования, чтобы освободить ресурсы, методом scanner.close();
     */
+
+    /*Fixed*/
+
 public class Task12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Count Numbers: ");
         int countNumbers = scanner.nextInt();
         System.out.println("Sum: " + getSum(countNumbers));
+        scanner.close();
     }
 
     private static long getSum(int countNumbers) {

@@ -7,18 +7,24 @@ package lesson4.homework;
                метод getFactorial фактически вычисляет произведение чисел от 10 до 15,
                а не факториалы каждого числа в этом диапазоне по отдельности
     */
+
+    /*Fixed*/
+
 public class Task10 {
     public static void main(String[] args) {
         int startNumber = 10;
         int endNumber = 15;
-        System.out.println("Factorial: " + getFactorial(startNumber, endNumber));
+        for (int number = startNumber; number <= endNumber ; number++) {
+            System.out.println("Factorial: " + number + " = " + getFactorial(number));
+        }
     }
 
-    private static long getFactorial(int startNumber, int endNumber) {
+    private static long getFactorial(int number) {
         long factorial = 1;
-        while (startNumber <= endNumber) {
-            factorial *= startNumber;
-            startNumber++;
+        int count = 1;
+        while (count <= number) {
+            factorial *= number;
+            count++;
         }
         return factorial;
     }

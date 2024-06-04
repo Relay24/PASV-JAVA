@@ -10,18 +10,21 @@ package lesson4.homework;
                Чтобы правильно рассчитать факториал, вам нужно сначала
                определить число x, а затем последовательно умножать числа от 1 до x
     */
+
+    /*Fixed*/
 public class Task9 {
 
     public static void main(String[] args) {
-        System.out.println("Factorial: " + getFactorial());
+        int x = (int) (Math.random() * 20);
+        System.out.println("Factorial " + x + " = " + getFactorial(x));
     }
 
-    private static long getFactorial() {
+    private static long getFactorial(int x) {
         long factorial = 1;
-        int x = (int) (Math.random() * 20);
-        while (x != 0) {
+        int count = 1;
+        while (count <= x) {
             factorial *= x;
-            x = (int) (Math.random() * 20);
+            count++;
         }
         return factorial;
     }
