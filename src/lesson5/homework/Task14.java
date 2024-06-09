@@ -21,7 +21,7 @@ public class Task14 {
 
     private static String getMinGradeAndIndex(int[] randomArray) {
         int min = randomArray[0];
-        int index = randomArray[0];
+        int index = 0;
         for (int i = 0; i < randomArray.length; i++) {
             if (randomArray[i] < min) {
                 min = randomArray[i];
@@ -33,7 +33,7 @@ public class Task14 {
 
     private static String getMaxGradeAndIndex(int[] randomArray) {
         int max = randomArray[0];
-        int index = randomArray[0];
+        int index = 0;
         for (int i = 0; i < randomArray.length; i++) {
             if (randomArray[i] > max) {
                 max = randomArray[i];
