@@ -12,6 +12,6 @@ public class Task19 {
     }
 
     private static int getCountWords(String text) {
-        return text.trim().split("\\s+").length;
+        return text.isBlank() ? 0 : text.trim().split("\\s+").length;
     }
 }
